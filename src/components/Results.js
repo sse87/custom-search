@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { makeId } from '../utilityFunctions'
 
 const Results = ({ searchResults, searchQuery, fetching }) => {
+  // Spinner
   if (fetching) {
     return (
       <div className='text-center'>
@@ -13,22 +14,17 @@ const Results = ({ searchResults, searchQuery, fetching }) => {
     )
   }
 
+  // No results messages
   if (searchResults.length === 0) {
+    // No results before searching
     if (searchQuery === '') {
-      return (
-        <div className='text-center'>
-          <span>Þú átt eftir að nota leitina...</span>
-        </div>
-      )
+      return <div><span>Byrjaðu að slá inn í leitargluggann til að fá myndir</span></div>
     }
-
-    return (
-      <div className='text-center'>
-        <span>Engar niðurstöður fundust við leitina að: "{searchQuery}"</span>
-      </div>
-    )
+    // No results after searching:
+    return <div><span>Engar myndir fundust við leitina að: <strong>"{searchQuery}"</strong></span></div>
   }
 
+  // Results
   return (
     <div className='row'>
       {searchResults.map(item => (
@@ -52,15 +48,13 @@ const Results = ({ searchResults, searchQuery, fetching }) => {
 Results.propTypes = {
   searchResults: PropTypes.array,
   searchQuery: PropTypes.string,
-  fetching: PropTypes.bool,
-  neverSearched: PropTypes.bool
+  fetching: PropTypes.bool
 }
 
 Results.defaultProps = {
   searchResults: [],
   searchQuery: '',
-  fetching: false,
-  neverSearched: true
+  fetching: false
 }
 
 export default Results
