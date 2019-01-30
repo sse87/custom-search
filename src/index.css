@@ -12,3 +12,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card-img {
+  background: none no-repeat scroll center center transparent;
+  background-size: cover;
+  height: 300px;
+}
