@@ -1,8 +1,8 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { makeId } from '../utilityFunctions'
+import InfiniteScroll from 'react-infinite-scroller'
 
-const Results = ({ searchResults, searchQuery, fetching }) => {
+const Results = ({ searchResults, searchQuery, fetching, fetchMore, hasMore }) => {
   // Spinner
   if (fetching) {
     return (
@@ -26,9 +26,24 @@ const Results = ({ searchResults, searchQuery, fetching }) => {
 
   // Results
   return (
-    <div className='row'>
+    <InfiniteScroll
+      className='row'
+      pageStart={0}
+      loadMore={() => {
+        console.log('loadMore() => fetchMore()')
+        fetchMore()
+      }}
+      hasMore={hasMore}
+      loader={(
+        <div className='col-12 text-center' key={0}>
+          <div className='spinner-border'>
+            <span className='sr-only'>Loading...</span>
+          </div>
+        </div>
+      )}
+    >
       {searchResults.map(item => (
-        <div className='col-md-4' key={`${item.htmlTitle}${makeId()}`}>
+        <div className='col-md-4' key={`${item.id}`}>
           <div className='card mb-4 shadow-lg'>
             <a
               href={item.image.contextLink}
@@ -41,14 +56,16 @@ const Results = ({ searchResults, searchQuery, fetching }) => {
           </div>
         </div>
       ))}
-    </div>
+    </InfiniteScroll>
   )
 }
 
 Results.propTypes = {
   searchResults: PropTypes.array,
   searchQuery: PropTypes.string,
-  fetching: PropTypes.bool
+  fetching: PropTypes.bool,
+  fetchMore: PropTypes.func.isRequired,
+  hasMore: PropTypes.func.isRequired
 }
 
 Results.defaultProps = {
