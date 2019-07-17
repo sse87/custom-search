@@ -1,15 +1,17 @@
 {
-  "main.css": "/custom-search/static/css/main.40dcccab.chunk.css",
-  "main.js": "/custom-search/static/js/main.6568c04e.chunk.js",
-  "main.js.map": "/custom-search/static/js/main.6568c04e.chunk.js.map",
-  "static/css/1.1bb9ea5b.chunk.css": "/custom-search/static/css/1.1bb9ea5b.chunk.css",
-  "static/js/1.e42faf9b.chunk.js": "/custom-search/static/js/1.e42faf9b.chunk.js",
-  "static/js/1.e42faf9b.chunk.js.map": "/custom-search/static/js/1.e42faf9b.chunk.js.map",
-  "runtime~main.js": "/custom-search/static/js/runtime~main.84a71d1a.js",
-  "runtime~main.js.map": "/custom-search/static/js/runtime~main.84a71d1a.js.map",
-  "static/css/1.1bb9ea5b.chunk.css.map": "/custom-search/static/css/1.1bb9ea5b.chunk.css.map",
-  "static/css/main.40dcccab.chunk.css.map": "/custom-search/static/css/main.40dcccab.chunk.css.map",
-  "index.html": "/custom-search/index.html",
-  "precache-manifest.7a7fdd6e8d69a9456abe8115b03b0886.js": "/custom-search/precache-manifest.7a7fdd6e8d69a9456abe8115b03b0886.js",
-  "service-worker.js": "/custom-search/service-worker.js"
+  "files": {
+    "main.css": "/custom-search/static/css/main.d77ec2e0.chunk.css",
+    "main.js": "/custom-search/static/js/main.dd22563b.chunk.js",
+    "main.js.map": "/custom-search/static/js/main.dd22563b.chunk.js.map",
+    "runtime~main.js": "/custom-search/static/js/runtime~main.57605f2a.js",
+    "runtime~main.js.map": "/custom-search/static/js/runtime~main.57605f2a.js.map",
+    "static/css/2.1e66eaca.chunk.css": "/custom-search/static/css/2.1e66eaca.chunk.css",
+    "static/js/2.2d278502.chunk.js": "/custom-search/static/js/2.2d278502.chunk.js",
+    "static/js/2.2d278502.chunk.js.map": "/custom-search/static/js/2.2d278502.chunk.js.map",
+    "index.html": "/custom-search/index.html",
+    "precache-manifest.cecd57317283765e49c1d675801881e0.js": "/custom-search/precache-manifest.cecd57317283765e49c1d675801881e0.js",
+    "service-worker.js": "/custom-search/service-worker.js",
+    "static/css/2.1e66eaca.chunk.css.map": "/custom-search/static/css/2.1e66eaca.chunk.css.map",
+    "static/css/main.d77ec2e0.chunk.css.map": "/custom-search/static/css/main.d77ec2e0.chunk.css.map"
+  }
 }
