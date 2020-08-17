@@ -1,17 +1,25 @@
 {
   "files": {
     "main.css": "/custom-search/static/css/main.d77ec2e0.chunk.css",
-    "main.js": "/custom-search/static/js/main.dd22563b.chunk.js",
-    "main.js.map": "/custom-search/static/js/main.dd22563b.chunk.js.map",
-    "runtime~main.js": "/custom-search/static/js/runtime~main.57605f2a.js",
-    "runtime~main.js.map": "/custom-search/static/js/runtime~main.57605f2a.js.map",
-    "static/css/2.1e66eaca.chunk.css": "/custom-search/static/css/2.1e66eaca.chunk.css",
-    "static/js/2.2d278502.chunk.js": "/custom-search/static/js/2.2d278502.chunk.js",
-    "static/js/2.2d278502.chunk.js.map": "/custom-search/static/js/2.2d278502.chunk.js.map",
+    "main.js": "/custom-search/static/js/main.f4cf0c5c.chunk.js",
+    "main.js.map": "/custom-search/static/js/main.f4cf0c5c.chunk.js.map",
+    "runtime-main.js": "/custom-search/static/js/runtime-main.41e2aff7.js",
+    "runtime-main.js.map": "/custom-search/static/js/runtime-main.41e2aff7.js.map",
+    "static/css/2.afc36f9d.chunk.css": "/custom-search/static/css/2.afc36f9d.chunk.css",
+    "static/js/2.4c64884e.chunk.js": "/custom-search/static/js/2.4c64884e.chunk.js",
+    "static/js/2.4c64884e.chunk.js.map": "/custom-search/static/js/2.4c64884e.chunk.js.map",
     "index.html": "/custom-search/index.html",
-    "precache-manifest.cecd57317283765e49c1d675801881e0.js": "/custom-search/precache-manifest.cecd57317283765e49c1d675801881e0.js",
+    "precache-manifest.84ece0b8a9ccbc6857595508a00cfa1c.js": "/custom-search/precache-manifest.84ece0b8a9ccbc6857595508a00cfa1c.js",
     "service-worker.js": "/custom-search/service-worker.js",
-    "static/css/2.1e66eaca.chunk.css.map": "/custom-search/static/css/2.1e66eaca.chunk.css.map",
-    "static/css/main.d77ec2e0.chunk.css.map": "/custom-search/static/css/main.d77ec2e0.chunk.css.map"
-  }
+    "static/css/2.afc36f9d.chunk.css.map": "/custom-search/static/css/2.afc36f9d.chunk.css.map",
+    "static/css/main.d77ec2e0.chunk.css.map": "/custom-search/static/css/main.d77ec2e0.chunk.css.map",
+    "static/js/2.4c64884e.chunk.js.LICENSE.txt": "/custom-search/static/js/2.4c64884e.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41e2aff7.js",
+    "static/css/2.afc36f9d.chunk.css",
+    "static/js/2.4c64884e.chunk.js",
+    "static/css/main.d77ec2e0.chunk.css",
+    "static/js/main.f4cf0c5c.chunk.js"
+  ]
 }
